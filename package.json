@@ -1,0 +1,18 @@
+{
+  "name": "quantumbot_core",
+  "version": "1.0.0",
+  "description": "zzzz",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "QuantumBot_CORE"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Sandeep Kandrigi",
+  "license": "ISC"
+}
