@@ -23,8 +23,19 @@ exports.addMessage = function.https.onCall(async {data, context} => {
         };
 
         const messageRef = await admin
-        .firestore()
-        .collection("chats")
-        .doc(userId)
-    }
-})
+            .firestore()
+            .collection("chats")
+            .doc(userId)
+            .collection("messages")
+            .add(messageData);
+
+        logger.log("Message added successfully, message ID:", messageRef.id);
+    } catch (error) {
+        logger.error("Error adding message:", error);
+        throw new functions.https.HttpsError(
+            "unknown",
+            "An error occurred while adding the message",
+            error.messageData
+        );
+    } 
+});
