@@ -4,4 +4,4 @@ This is a Node.js project that is a REST API built as a backend for a chatbot ca
 
 The API is tested using Postman and the database is Firebase with Firestore and Cloud functions.
 
-Certification of completion is shown in certQuantum
+Certification of completion is shown in certQuantum.pdf
