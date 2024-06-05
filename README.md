@@ -1,4 +1,4 @@
-##QuantumBot
+**QuantumBot
 
 This is a Node.js project that is functionally a REST API built as a backend for a chatbot called CosmoChat.
 
